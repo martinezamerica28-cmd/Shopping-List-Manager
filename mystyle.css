@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 30px;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#txtItem {
+    padding: 7px;
+}
+
+#itemList {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.list-group-item span {
+    flex: 1;
+}
+
+#error {
+    color: red;
+    margin-top: 5px;
+}
